@@ -18,7 +18,6 @@ Before running the application, first install the following libraries in the fir
 ```
 pip install -U scikit-learn
 pip install --upgrade tensorflow
-
 ```
 
 Verify the installations:
@@ -63,22 +62,22 @@ An initial neural network model was created to see how it would perform. Then, t
 
 ### Initial Model
 **Pre-settings:**
-Number of features - 116
-Activation of hidden layers function - ```relu```
-Activation of output layer - ```sigmoid```
-Number of epochs - 50
+* Number of features - 116
+* Activation of hidden layers function - ```relu```
+* Activation of output layer - ```sigmoid```
+* Number of epochs - 50
 
 Model: "sequential"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
+Layer (type)               Output Shape              Param #   
+------------- --------------------------------- ----------------
  dense (Dense)               (None, 58)                6786      
                                                                  
  dense_1 (Dense)             (None, 29)                1711      
                                                                  
  dense_2 (Dense)             (None, 1)                 30        
                                                                  
-=================================================================
+--------------- -------------------------------- ----------------
 Total params: 8,527
 Trainable params: 8,527
 Non-trainable params: 0
@@ -89,15 +88,15 @@ Loss: 0.5587013959884644, Accuracy: 0.7307288646697998
 
 ### Alternative Model 1
 **Pre-settings:**
-Number of features - 116
-Activation of hidden layers function - ```relu```
-Activation of output layer - ```sigmoid```
-Number of epochs - 50
+* Number of features - 116
+* Activation of hidden layers function - ```relu```
+* Activation of output layer - ```sigmoid```
+* Number of epochs - 50
 
 Model: "sequential_1"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
-=================================================================
+================== ============================== ===============
  dense_3 (Dense)             (None, 58)                6786      
                                                                  
  dense_4 (Dense)             (None, 29)                1711      
@@ -106,7 +105,7 @@ _________________________________________________________________
                                                                  
  dense_6 (Dense)             (None, 1)                 16        
                                                                  
-=================================================================
+---------- ------------- ------------- ----------- --------------
 Total params: 8,963
 Trainable params: 8,963
 Non-trainable params: 0
@@ -117,10 +116,10 @@ Loss: 8.163082122802734, Accuracy: 0.4707871675491333
 
 ### Alternative Model 2
 **Pre-settings:**
-Number of features - 116
-Activation of hidden layers function - ```relu```
-Activation of output layer - ```sigmoid```
-Number of epochs - 100
+* Number of features - 116
+* Activation of hidden layers function - ```relu```
+* Activation of output layer - ```sigmoid```
+* Number of epochs - 100
 
 Model: "sequential_2"
 _________________________________________________________________
@@ -144,15 +143,15 @@ Loss: 0.5605130195617676, Accuracy: 0.729912519454956
 ### Alternative Model 3
 
 **Pre-settings:**
-Number of features - 116
-Activation of hidden layers function - ```relu```
-Activation of output layer - ```sigmoid```
-Number of epochs - 80
+* Number of features - 116
+* Activation of hidden layers function - ```relu```
+* Activation of output layer - ```sigmoid```
+* Number of epochs - 80
 
 Model: "sequential_3"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
-=================================================================
+================= ============================== ==============
  dense_10 (Dense)            (None, 80)                9360      
                                                                  
  dense_11 (Dense)            (None, 40)                3240      
@@ -161,7 +160,7 @@ _________________________________________________________________
                                                                  
  dense_13 (Dense)            (None, 1)                 21        
                                                                  
-=================================================================
+--------- -------------- ------------- ---------------------------
 Total params: 13,441
 Trainable params: 13,441
 Non-trainable params: 0
