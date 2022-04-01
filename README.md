@@ -70,7 +70,6 @@ An initial neural network model was created to see how it would perform. Then, t
 Model: "sequential"
 _________________________________________________________________
 Layer (type)               Output Shape              Param #   
-------------- --------------------------------- ----------------
  dense (Dense)               (None, 58)                6786      
                                                                  
  dense_1 (Dense)             (None, 29)                1711      
@@ -96,7 +95,6 @@ Loss: 0.5587013959884644, Accuracy: 0.7307288646697998
 Model: "sequential_1"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
-================== ============================== ===============
  dense_3 (Dense)             (None, 58)                6786      
                                                                  
  dense_4 (Dense)             (None, 29)                1711      
@@ -124,7 +122,6 @@ Loss: 8.163082122802734, Accuracy: 0.4707871675491333
 Model: "sequential_2"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
-=================================================================
  dense_7 (Dense)             (None, 58)                6786      
                                                                  
  dense_8 (Dense)             (None, 29)                1711      
@@ -151,7 +148,6 @@ Loss: 0.5605130195617676, Accuracy: 0.729912519454956
 Model: "sequential_3"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
-================= ============================== ==============
  dense_10 (Dense)            (None, 80)                9360      
                                                                  
  dense_11 (Dense)            (None, 40)                3240      
